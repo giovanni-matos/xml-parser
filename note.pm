@@ -136,6 +136,7 @@ sub process_part()
 	     $i-- if splice(@part_notes,$i,1);
       }
    }
+   
    foreach $note (@part_notes)
    {
       print $file_handle $note->to_string."\n";
