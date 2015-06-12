@@ -82,7 +82,6 @@ sub process_part()
          #puntillos
 	     if(defined($notes[$i]->{'dot'}))
 	     {
-	        print "puntillo";
 	        $note_duration *= 1.5;
 	     }
 	     $note_duration = floor($note_duration);
